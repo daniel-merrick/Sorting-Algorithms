@@ -24,12 +24,20 @@ int main(int argc, char **argv){
 		return EXIT_FAILURE;
 	}
 	
-	//perform InsertionSort and track time
+
 	clock_t start_t, end_t, total_t;
+	//get start clock tic
 	start_t = clock();
+	
+	//perform InsertionSort and track time
 	InsertionSort(Elements_, Size_);	
+	
+	//get end clock tic
 	end_t = clock();
+	
+	//get total clock tics
 	total_t = (end_t - start_t);
+	
 	//check if array is properly sorted ... return false if not sorted
 	if(CheckSort(Elements_, Size_) == false){
 		return EXIT_FAILURE;
