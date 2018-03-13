@@ -40,6 +40,7 @@ int main(int argc, char **argv){
 	
 	//check if array is properly sorted ... return false if not sorted
 	if(CheckSort(Elements_, Size_) == false){
+		free(Elements_);
 		return EXIT_FAILURE;
 	}	
 		
