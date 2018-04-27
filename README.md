@@ -1,7 +1,7 @@
 # Sorting-Algorithms
 Collection of Sorting Algorithms
 
-'generate' is an executable file which generates a binary file of user inputed length
+'generate' is an executable file which generates a binary file a user inputed length of long ints
 
 Usage:
 > ./generate 'Number of elements' 'outputFile'
